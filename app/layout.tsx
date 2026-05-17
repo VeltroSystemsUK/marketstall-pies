@@ -1,26 +1,26 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Abril_Fatface, Lato } from "next/font/google";
 import { Toaster } from "react-hot-toast";
 import { AuthProvider } from "@/contexts/AuthContext";
 import { BasketProvider } from "@/contexts/BasketContext";
 import config from "@/site.config";
 import "./globals.css";
 
-const inter = Inter({
+const abrilFatface = Abril_Fatface({
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-abril-fatface",
   display: "swap",
+  weight: "400",
 });
 
-const playfairDisplay = Playfair_Display({
+const lato = Lato({
   subsets: ["latin"],
-  variable: "--font-playfair-display",
+  variable: "--font-lato",
   display: "swap",
-  style: ["normal", "italic"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["300", "400", "700"],
 });
 
-const title = `${config.brand.name} — ${config.brand.location} Farmers Market`;
+const title = `${config.brand.name} — ${config.brand.location}`;
 
 export const metadata: Metadata = {
   title: {
@@ -29,12 +29,12 @@ export const metadata: Metadata = {
   },
   description: config.brand.description,
   keywords: [
-    "farmers market",
+    "handmade pies",
+    "artisan pastry",
     config.brand.location,
-    "local food",
-    "organic produce",
-    "artisan",
-    "farm to table",
+    "steak pie",
+    "pork pie",
+    "pie shop",
   ],
   authors: [{ name: "Veltro Ltd" }],
   creator: "Veltro Ltd",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     description: config.brand.description,
     images: [
       {
-        url: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80",
+        url: "https://images.unsplash.com/photo-1562440499-64c9a111f713?w=1200&q=80",
         width: 1200,
         height: 630,
         alt: title,
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#2d6a4f",
+  themeColor: "#653166",
   width: "device-width",
   initialScale: 1,
 };
@@ -73,7 +73,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${playfairDisplay.variable}`}>
+    <html lang="en" className={`${abrilFatface.variable} ${lato.variable}`}>
       <body>
         <AuthProvider>
           <BasketProvider>
@@ -82,13 +82,13 @@ export default function RootLayout({
               position="bottom-center"
               toastOptions={{
                 style: {
-                  background: "#1e4d38",
+                  background: "#522853",
                   color: "#fff",
                   borderRadius: "10px",
-                  fontFamily: "var(--font-inter)",
+                  fontFamily: "var(--font-lato)",
                 },
                 success: {
-                  iconTheme: { primary: "#e8a838", secondary: "#fff" },
+                  iconTheme: { primary: "#e9a215", secondary: "#fff" },
                 },
               }}
             />

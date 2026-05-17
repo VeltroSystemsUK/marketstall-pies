@@ -1,40 +1,34 @@
-/**
- * site.config.ts — edit this file when deploying for a new client.
- *
- * MODE GUIDE
- * ----------
- * marketplace   Multi-producer platform. Full admin, producer onboarding,
- *               Stripe Connect commission splits. Sell to farmers market
- *               organisers, collectives, or aggregators.
- *
- * single-store  One brand, one producer's products. Direct Stripe checkout
- *               (no commission). Sell to individual farms, bakeries, etc.
- */
-
 import type { SiteConfig } from "@/lib/site-config.types";
 
 const config: SiteConfig = {
-  mode: "marketplace",
+  mode: "single-store",
 
   brand: {
-    name: "MarketStall",
-    tagline: "Your local market, delivered",
+    name: "The Pie Merchant",
+    tagline: "Hand-crimped pies, pasties & sausage rolls from Shropshire",
     description:
-      "Connecting East Midlands farmers and artisan producers directly with people who love great food. Every order supports a local family.",
-    email: "hello@marketstall.co.uk",
-    location: "East Midlands",
-    foundedYear: 2024,
-    socialInstagram: "https://instagram.com",
-    socialFacebook: "https://facebook.com",
+      "Every pie is made from scratch in our Shrewsbury bakery — all-butter shortcrust, slow-braised fillings, and hand-crimped edges. We've been feeding Shropshire since 1987 and we still make everything the way we always have.",
+    email: "hello@thepiemerchant.co.uk",
+    location: "Shrewsbury, Shropshire",
+    foundedYear: 1987,
+    socialInstagram: "https://instagram.com/thepiemerchant",
+    socialFacebook: "https://facebook.com/thepiemerchant",
   },
 
   features: {
-    producerOnboarding: true,
-    adminPanel: true,
-    multiProducer: true,
-    stripeConnect: true,
+    producerOnboarding: false,
+    adminPanel: false,
+    multiProducer: false,
+    stripeConnect: false,
     reviews: true,
   },
+
+  stats: [
+    { value: "1,000+", label: "Pies Per Week" },
+    { value: "20+", label: "Varieties" },
+    { value: "4.9★", label: "Average Rating" },
+    { value: "Est. 1987", label: "Shropshire" },
+  ],
 };
 
 export default config;
