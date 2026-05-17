@@ -50,7 +50,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "individual pie (serves 1)",
     stock: 100,
     images: [
-      "https://images.unsplash.com/photo-1562440499-64c9a111f713?w=800&q=80",
+      "/images/steak-ale-pie.jpg",
     ],
     dietary: [],
     allergens: ["gluten", "dairy"],
@@ -73,7 +73,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "individual pie (serves 1)",
     stock: 80,
     images: [
-      "https://images.unsplash.com/photo-1513442542250-854d436a73f2?w=800&q=80",
+      "/images/pork-pie.jpg",
     ],
     dietary: [],
     allergens: ["gluten", "dairy"],
@@ -96,7 +96,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "400g whole pie",
     stock: 50,
     images: [
-      "https://images.unsplash.com/photo-1562440499-64c9a111f713?w=800&q=80",
+      "/images/sausage-roll.jpg",
     ],
     dietary: [],
     allergens: ["gluten", "dairy"],
@@ -119,7 +119,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "individual pie (serves 1)",
     stock: 40,
     images: [
-      "https://images.unsplash.com/photo-1513442542250-854d436a73f2?w=800&q=80",
+      "/images/cornish-pasty.jpg",
     ],
     dietary: [],
     allergens: ["gluten", "dairy"],
@@ -142,7 +142,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "1 large sausage roll",
     stock: 120,
     images: [
-      "https://images.unsplash.com/photo-1562440499-64c9a111f713?w=800&q=80",
+      "/images/steak-ale-pie.jpg",
     ],
     dietary: [],
     allergens: ["gluten", "dairy"],
@@ -164,7 +164,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "large oval pie (serves 4)",
     stock: 25,
     images: [
-      "https://images.unsplash.com/photo-1513442542250-854d436a73f2?w=800&q=80",
+      "/images/pork-pie.jpg",
     ],
     dietary: [],
     allergens: ["gluten", "dairy"],
@@ -186,7 +186,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "1 large pasty",
     stock: 80,
     images: [
-      "/images/cornish-pasty.jpg",
+      "/images/sausage-roll.jpg",
     ],
     dietary: [],
     allergens: ["gluten", "dairy"],
@@ -208,7 +208,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "4 individual pies",
     stock: 30,
     images: [
-      "https://images.unsplash.com/photo-1513442542250-854d436a73f2?w=800&q=80",
+      "/images/cornish-pasty.jpg",
     ],
     dietary: [],
     allergens: ["gluten", "dairy"],
