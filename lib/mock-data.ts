@@ -19,9 +19,8 @@ export const MOCK_PRODUCERS: Producer[] = [
     },
     categories: ["pies", "pastry"],
     images: {
-      banner:
-        "https://images.unsplash.com/photo-1562440499-64c9a111f713?w=1400&q=80",
-      logo: "https://images.unsplash.com/photo-1513442542250-854d436a73f2?w=200&q=80",
+      banner: "/images/hero.jpg",
+      logo: "/images/pork-pie.jpg",
     },
     status: "approved",
     commissionRate: 0,
@@ -187,7 +186,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "1 large pasty",
     stock: 80,
     images: [
-      "https://images.unsplash.com/photo-1562440499-64c9a111f713?w=800&q=80",
+      "/images/cornish-pasty.jpg",
     ],
     dietary: [],
     allergens: ["gluten", "dairy"],
@@ -269,8 +268,7 @@ export const MOCK_ORDERS: Order[] = [
         price: 650,
         quantity: 4,
         unit: "individual pie",
-        imageUrl:
-          "https://images.unsplash.com/photo-1562440499-64c9a111f713?w=400&q=80",
+        imageUrl: "/images/hero.jpg",
       },
       {
         productId: "prod-5",
@@ -280,8 +278,7 @@ export const MOCK_ORDERS: Order[] = [
         price: 350,
         quantity: 4,
         unit: "1 large sausage roll",
-        imageUrl:
-          "https://images.unsplash.com/photo-1562440499-64c9a111f713?w=400&q=80",
+        imageUrl: "/images/hero.jpg",
       },
     ],
     producerIds: ["producer-1"],

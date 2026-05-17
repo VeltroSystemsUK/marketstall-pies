@@ -68,7 +68,7 @@ export default function HomePage() {
       {/* ── HERO ─────────────────────────────────────────────── */}
       <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1562440499-64c9a111f713?w=1600&q=85"
+          src="/images/hero.jpg"
           alt="Golden hand-crimped pie with flaky all-butter pastry"
           fill
           priority
@@ -189,7 +189,7 @@ export default function HomePage() {
         <section className="section-pad relative overflow-hidden bg-forest-950">
           <div className="absolute inset-0 opacity-10">
             <Image
-              src="https://images.unsplash.com/photo-1513442542250-854d436a73f2?w=1600&q=60"
+              src="/images/hero.jpg"
               alt=""
               fill
               className="object-cover object-center"
@@ -219,7 +219,7 @@ export default function HomePage() {
               </div>
               <div className="relative h-80 overflow-hidden rounded-3xl lg:h-[480px]">
                 <Image
-                  src="https://images.unsplash.com/photo-1562440499-64c9a111f713?w=800&q=80"
+                  src="/images/hero.jpg"
                   alt="Freshly baked golden pies cooling in the Shrewsbury bakery"
                   fill
                   className="object-cover object-center"
@@ -354,7 +354,7 @@ export default function HomePage() {
       <section className="relative overflow-hidden bg-forest-800 py-24">
         <div className="absolute inset-0 opacity-10">
           <Image
-            src="https://images.unsplash.com/photo-1562440499-64c9a111f713?w=1600&q=60"
+            src="/images/hero.jpg"
             alt=""
             fill
             className="object-cover"
