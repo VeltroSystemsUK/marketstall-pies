@@ -5,8 +5,8 @@ const config: SiteConfig = {
 
   brand: {
     name: "Brockleby's Pies",
-    tagline: "Handmade in Melton Mowbray. Proper pies, every time.",
-    description: "Brockleby's are farmers and pie makers rooted in the heart of Melton Mowbray — the undisputed home of the pork pie. With 48 British Pie Awards to their name, including a Supreme Champion, every pie is handmade with free-range and locally sourced ingredients, slow-cooked fillings, and pastry that shatters and yields in equal measure. From the iconic Melton Mowbray Pork Pie to bold savoury creations and indulgent sweet pies, this is artisan baking with serious pedigree.",
+    tagline: "Handmade pies, straight from Melton Mowbray's heart.",
+    description: "Brockleby's are farmers and pie makers from the home of the pork pie — Melton Mowbray, Leicestershire. With 48 British Pie Awards to their name, including a Supreme Champion, every pie is shaped by hand using recipes rooted in generations of craft. From their iconic Melton Mowbray Pork Pie to wild game and sweet fruit pies, this is proper British baking at its finest.",
     email: "hello@brocklebys.co.uk",
     location: "Melton Mowbray, Leicestershire",
     foundedYear: 1995,
@@ -25,9 +25,9 @@ const config: SiteConfig = {
 
   stats: [
     { value: "48", label: "British Pie Awards" },
-    { value: "Supreme", label: "Champion Winners" },
+    { value: "30+", label: "Years of Craft Baking" },
     { value: "4.6★", label: "Google Rating" },
-    { value: "Melton", label: "Mowbray Made" },
+    { value: "Supreme", label: "Champion Winners" },
   ],
 };
 
