@@ -4,15 +4,14 @@ const config: SiteConfig = {
   mode: "single-store",
 
   brand: {
-    name: "The Pie Merchant",
-    tagline: "Hand-crimped pies, pasties & sausage rolls from Shropshire",
-    description:
-      "Every pie is made from scratch in our Shrewsbury bakery — all-butter shortcrust, slow-braised fillings, and hand-crimped edges. We've been feeding Shropshire since 1987 and we still make everything the way we always have.",
-    email: "hello@thepiemerchant.co.uk",
-    location: "Shrewsbury, Shropshire",
-    foundedYear: 1987,
-    socialInstagram: "https://instagram.com/thepiemerchant",
-    socialFacebook: "https://facebook.com/thepiemerchant",
+    name: "Brockleby's",
+    tagline: "Handmade award-winning pies straight from Melton Mowbray",
+    description: "Brockleby's are farmers and artisan pie makers based in the heart of Melton Mowbray, Leicestershire — home of the authentic Pork Pie. With 48 British Pie Awards to their name including a Supreme Champion title, every pie is handmade with care, quality ingredients, and generations of passion. From classic Melton Mowbray Pork Pies to indulgent sweet dessert pies, Brockleby's deliver real, honest food loved across the nation.",
+    email: "hello@brocklebys.co.uk",
+    location: "Melton Mowbray, Leicestershire",
+    foundedYear: 1998,
+    socialInstagram: "https://www.instagram.com/brocklebys",
+    socialFacebook: "https://www.facebook.com/brocklebys",
   },
 
   features: {
@@ -24,10 +23,10 @@ const config: SiteConfig = {
   },
 
   stats: [
-    { value: "1,000+", label: "Pies Per Week" },
-    { value: "20+", label: "Varieties" },
-    { value: "4.9★", label: "Average Rating" },
-    { value: "Est. 1987", label: "Shropshire" },
+    { value: "48", label: "British Pie Awards Won" },
+    { value: "1★", label: "Supreme Champion Title" },
+    { value: "4.6★", label: "Average Google Rating" },
+    { value: "Est. 1998", label: "Melton Mowbray, Leicestershire" },
   ],
 };
 
