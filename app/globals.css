@@ -1,49 +1,47 @@
 @import "tailwindcss";
 
 @theme {
-  --font-display: var(--font-abril-fatface), Georgia, serif;
-  --font-sans: var(--font-lato), system-ui, sans-serif;
+  --font-display: var(--font-libre-baskerville), Georgia, serif;
+  --font-sans: var(--font-source-sans-3), system-ui, sans-serif;
 
-  /* Primary — rich plum / deep purple */
-  --color-forest-50: #f8f2f8;
-  --color-forest-100: #f0e4f0;
-  --color-forest-200: #e2cae3;
-  --color-forest-300: #cfa4d0;
-  --color-forest-400: #b576b6;
-  --color-forest-500: #985098;
-  --color-forest-600: #7c3c7c;
-  --color-forest-700: #653166;
-  --color-forest-800: #522853;
-  --color-forest-900: #422244;
-  --color-forest-950: #251329;
+  --color-forest-50: #f5f0e8;
+  --color-forest-100: #e8ddc8;
+  --color-forest-200: #d4bb96;
+  --color-forest-300: #bf9863;
+  --color-forest-400: #ab7d3e;
+  --color-forest-500: #8b5e20;
+  --color-forest-600: #744e1a;
+  --color-forest-700: #5c3d14;
+  --color-forest-800: #452e0f;
+  --color-forest-900: #2e1f0a;
+  --color-forest-950: #1a1105;
 
-  --color-earth-50: #f7f0f7;
-  --color-earth-100: #eedeed;
-  --color-earth-200: #dfc0df;
-  --color-earth-300: #c898c8;
-  --color-earth-400: #ab6bab;
-  --color-earth-500: #8e488e;
-  --color-earth-600: #733673;
-  --color-earth-700: #5e2a5e;
-  --color-earth-800: #4d234e;
-  --color-earth-900: #3e1e3f;
-  --color-earth-950: #220e22;
+  --color-earth-50: #faf4ec;
+  --color-earth-100: #f2e4cc;
+  --color-earth-200: #e5c89a;
+  --color-earth-300: #d6a868;
+  --color-earth-400: #c88b3f;
+  --color-earth-500: #a86c22;
+  --color-earth-600: #8c591c;
+  --color-earth-700: #6f4515;
+  --color-earth-800: #52320f;
+  --color-earth-900: #362008;
+  --color-earth-950: #1e1104;
 
-  /* Accent — golden pastry / warm amber */
-  --color-harvest-50: #fefbec;
-  --color-harvest-100: #fdf5ce;
-  --color-harvest-200: #fbe998;
-  --color-harvest-300: #f8d55c;
-  --color-harvest-400: #f4bf2c;
-  --color-harvest-500: #e9a215;
-  --color-harvest-600: #d07f0e;
-  --color-harvest-700: #ad610e;
-  --color-harvest-800: #8b4b12;
-  --color-harvest-900: #733e14;
-  --color-harvest-950: #3f1f08;
+  --color-harvest-50: #fef3e2;
+  --color-harvest-100: #fde4b8;
+  --color-harvest-200: #fbd08a;
+  --color-harvest-300: #f8bb58;
+  --color-harvest-400: #f5a62e;
+  --color-harvest-500: #e8890a;
+  --color-harvest-600: #c47008;
+  --color-harvest-700: #9c5806;
+  --color-harvest-800: #744104;
+  --color-harvest-900: #4d2b02;
+  --color-harvest-950: #2b1701;
 
-  --color-cream: #fdf8ff;
-  --color-cream-dark: #f3e8f5;
+  --color-cream: #fdf8f0;
+  --color-cream-dark: #f0e6d0;
 
   --radius-sm: 0.375rem;
   --radius-md: 0.625rem;
@@ -61,7 +59,7 @@ html {
 
 body {
   font-family: var(--font-sans);
-  background-color: var(--color-cream);
+  background-color: #fdf8f0;
   color: #1a1a1a;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -79,11 +77,11 @@ body {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: #d4aed4;
+  background: #d4bb96;
   border-radius: 99px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #ac80ac;
+  background: #ab7d3e;
 }
 
 .text-balance {
@@ -91,18 +89,18 @@ body {
 }
 
 .gradient-forest {
-  background: linear-gradient(135deg, #653166 0%, #522853 100%);
+  background: linear-gradient(135deg, #5c3d14 0%, #452e0f 100%);
 }
 .gradient-harvest {
-  background: linear-gradient(135deg, #e9a215 0%, #d07f0e 100%);
+  background: linear-gradient(135deg, #e8890a 0%, #c47008 100%);
 }
 
 .gradient-hero {
   background: linear-gradient(
     160deg,
-    rgba(82, 40, 83, 0.92) 0%,
-    rgba(101, 49, 102, 0.74) 50%,
-    rgba(233, 162, 21, 0.38) 100%
+    rgba(69, 46, 15, 0.92) 0%,
+    rgba(92, 61, 20, 0.74) 50%,
+    rgba(232, 137, 10, 0.38) 100%
   );
 }
 
@@ -114,12 +112,12 @@ body {
 .card-hover:hover {
   transform: translateY(-3px);
   box-shadow:
-    0 12px 40px -8px rgba(124, 60, 124, 0.16),
+    0 12px 40px -8px rgba(92, 61, 20, 0.18),
     0 4px 12px -4px rgba(0, 0, 0, 0.08);
 }
 
 :focus-visible {
-  outline: 2px solid #653166;
+  outline: 2px solid #5c3d14;
   outline-offset: 2px;
 }
 
