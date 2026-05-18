@@ -5,43 +5,43 @@
   --font-sans: var(--font-source-sans-3), system-ui, sans-serif;
 
   --color-forest-50: #fdf6ee;
-  --color-forest-100: #f9e9d4;
-  --color-forest-200: #f2d0a5;
-  --color-forest-300: #e9b06e;
-  --color-forest-400: #de8e3e;
-  --color-forest-500: #c97520;
-  --color-forest-600: #ae5e17;
-  --color-forest-700: #8e4914;
-  --color-forest-800: #703a15;
-  --color-forest-900: #5a3014;
-  --color-forest-950: #321708;
+  --color-forest-100: #f8e8d0;
+  --color-forest-200: #f1cfa0;
+  --color-forest-300: #e8af6a;
+  --color-forest-400: #de8f3c;
+  --color-forest-500: #c97420;
+  --color-forest-600: #a85c18;
+  --color-forest-700: #874717;
+  --color-forest-800: #6b3818;
+  --color-forest-900: #572f17;
+  --color-forest-950: #2f180a;
 
   --color-earth-50: #faf5ec;
-  --color-earth-100: #f3e8d0;
-  --color-earth-200: #e6cfa0;
-  --color-earth-300: #d5af66;
-  --color-earth-400: #c79038;
-  --color-earth-500: #b37620;
-  --color-earth-600: #995f18;
-  --color-earth-700: #7c4916;
-  --color-earth-800: #643b17;
-  --color-earth-900: #523115;
-  --color-earth-950: #2e1a08;
+  --color-earth-100: #f2e6cc;
+  --color-earth-200: #e5cc99;
+  --color-earth-300: #d4a95e;
+  --color-earth-400: #c58d35;
+  --color-earth-500: #a97226;
+  --color-earth-600: #8b591e;
+  --color-earth-700: #6e431a;
+  --color-earth-800: #58361a;
+  --color-earth-900: #472c18;
+  --color-earth-950: #261509;
 
-  --color-harvest-50: #f2f9f2;
-  --color-harvest-100: #e0f0e0;
-  --color-harvest-200: #bcdebe;
-  --color-harvest-300: #8dc490;
-  --color-harvest-400: #5ba360;
-  --color-harvest-500: #3a8440;
-  --color-harvest-600: #2b6a32;
-  --color-harvest-700: #245429;
-  --color-harvest-800: #1f4323;
-  --color-harvest-900: #1a371e;
-  --color-harvest-950: #0d1f10;
+  --color-harvest-50: #f2f9f0;
+  --color-harvest-100: #e0f1da;
+  --color-harvest-200: #c0e3b8;
+  --color-harvest-300: #8fce87;
+  --color-harvest-400: #5db356;
+  --color-harvest-500: #3d9437;
+  --color-harvest-600: #2e752a;
+  --color-harvest-700: #265c24;
+  --color-harvest-800: #224a21;
+  --color-harvest-900: #1d3d1c;
+  --color-harvest-950: #0d210d;
 
   --color-cream: #fdf8f1;
-  --color-cream-dark: #f5e9d6;
+  --color-cream-dark: #f5e9d4;
 
   --radius-sm: 0.375rem;
   --radius-md: 0.625rem;
@@ -77,11 +77,11 @@ body {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: #f2d0a5;
+  background: #f1cfa0;
   border-radius: 99px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #de8e3e;
+  background: #de8f3c;
 }
 
 .text-balance {
@@ -89,18 +89,18 @@ body {
 }
 
 .gradient-forest {
-  background: linear-gradient(135deg, #8e4914 0%, #703a15 100%);
+  background: linear-gradient(135deg, #874717 0%, #6b3818 100%);
 }
 .gradient-harvest {
-  background: linear-gradient(135deg, #3a8440 0%, #2b6a32 100%);
+  background: linear-gradient(135deg, #3d9437 0%, #2e752a 100%);
 }
 
 .gradient-hero {
   background: linear-gradient(
     160deg,
-    rgba(112, 58, 21, 0.92) 0%,
-    rgba(142, 73, 20, 0.74) 50%,
-    rgba(58, 132, 64, 0.38) 100%
+    rgba(107, 56, 24, 0.92) 0%,
+    rgba(135, 71, 23, 0.74) 50%,
+    rgba(61, 148, 55, 0.38) 100%
   );
 }
 
@@ -112,12 +112,12 @@ body {
 .card-hover:hover {
   transform: translateY(-3px);
   box-shadow:
-    0 12px 40px -8px rgba(142, 73, 20, 0.18),
+    0 12px 40px -8px rgba(135, 71, 23, 0.18),
     0 4px 12px -4px rgba(0, 0, 0, 0.08);
 }
 
 :focus-visible {
-  outline: 2px solid #8e4914;
+  outline: 2px solid #874717;
   outline-offset: 2px;
 }
 
